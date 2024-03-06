@@ -2,8 +2,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100px;
-    width: 150px;
+    height: 350px;
+    width: 350px;
+    border-radius: 10px;
 }
 #header{
     display: flex;
@@ -12,4 +13,11 @@
     align-items: center;
     padding: 15px;
 }
-
+body{
+    background-color:cadetblue;
+    font-size: 17px;
+    margin: 20px;
+}
+a{
+    color: black;
+}
