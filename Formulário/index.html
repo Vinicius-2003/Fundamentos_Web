@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário</title>
+    <style>
+        .Complementos,
+        .opcao,
+        .caixa_texto {
+            text-align: center;
+        }
+
+        thead {
+            text-align: center;
+        }
+
+        .checkbox_final {
+            padding: 25px;
+        }
+
+        .tudo {
+            margin: 35%;
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <fieldset class="tudo">
+        <legend>Compras</legend>
+        <table width="50%">
+            <thead>
+                <td colspan=""><strong>Produtos</strong></td>
+                <td><strong>Lista de Compras</strong></td>
+            </thead>
+            <tr>
+                <td class="opcao">
+                    <select name="opções" id="iopções">
+                        <optgroup label="Aquários">
+                            <option value="Aquário 43L">43L</option>
+                            <option value="Aquário 84L">84L</option>
+                        </optgroup>
+                    </select>
+                    <input type="button" value="+">
+                </td>
+                <td rowspan="4" class="caixa_texto">
+                    <textarea name="texto" id="texto" cols="15" rows="8"></textarea>
+                </td>
+            </tr>
+            <tr class="Complementos">
+                <td><strong>Complementos</strong></td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="opção" id="imovel_luminaria"><label
+                        for="imovel_luminaria">Móvel+Luminária</label></td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="opção" id="iluminária"><label for="iluminária">Luminária</label></td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="opção" id="ividro"><label for="ividro">Vidro</label></td>
+            </tr>
+            <tr>
+                <td class="checkbox_final">
+                    <input type="checkbox" name="opcao_presente" id="iopcao_presente"><label
+                        for="iopcao_presente">Entrega como Presente</label>
+                </td>
+                <td>
+                    Valor Total : <input type="number" name="valor_total" id="ivalor_total">
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+</body>
+
+</html>
