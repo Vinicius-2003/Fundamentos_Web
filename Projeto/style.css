@@ -14,11 +14,11 @@ body{
     align-items: center;
     justify-content: center;
     color:#FBFADA;
-    width: 100%;
+    width: auto;
     background-color: #ADBC9F;
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 10px;
-    margin: 5px;
+    margin: 10px;
 }
 .nav_bar{
     display: flex;
@@ -27,8 +27,27 @@ body{
     background-color: #ADBC9F;
     color: #FBFADA;
     padding: 10px;
-    margin:15px;
+    margin: 10px;px;
     border-radius: 15px;
     text-decoration: none;
     font-size: 15px;
+}
+.sobre_site_estilo{
+    text-align: justify;
+    text-indent: 20px;
+    background-color: #FBFADA;
+    border-radius: 5px;
+}
+.nav_bar_homepage{
+    display: flex;
+    text-align: justify;
+    justify-content: left;
+    flex-direction: column;
+    text-indent: 20px;
+    background-color: #FBFADA;
+    margin: 10px;
+    width: 25%;
+}
+ol li{
+    list-style: decimal;
 }
