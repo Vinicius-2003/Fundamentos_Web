@@ -1,5 +1,5 @@
 body{
-    background-color:#12372A;
+    background-color:#A0153E;
 }
 * {
     padding:0;
@@ -13,30 +13,50 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    color:#FBFADA;
+    color:#690ffa;
     width: auto;
-    background-color: #ADBC9F;
+    background-color: #fdefda;
     border-radius: 10px;
     padding: 10px;
     margin: 10px;
+    box-shadow: #dd6a78;
 }
 .nav_bar{
     display: flex;
     flex-direction: row;
     justify-content:space-around;
-    background-color: #ADBC9F;
+    background-color: #cf4a4a84;
     color: #FBFADA;
     padding: 10px;
-    margin: 10px;px;
-    border-radius: 15px;
+    margin: 10px;
+    border-radius: 10px;
     text-decoration: none;
     font-size: 15px;
+}
+.nav_bar a:link{
+    text-decoration: none;
+    background-color: #dd6a78;
+    border-radius:2px;
+    padding: 10px;
+}
+.nav_bar p {
+    font-size: medium;
+}
+.opcoes{
+    font-size: x-large;
+    color: #F8F6E3;
 }
 .sobre_site_estilo{
     text-align: justify;
     text-indent: 20px;
-    background-color: #FBFADA;
     border-radius: 5px;
+    padding: auto;
+    margin: px;
+}
+.sobre_site_estilo h1{
+    margin: none;
+    padding: 0;
+    color:#15F5BA;
 }
 .nav_bar_homepage{
     display: flex;
@@ -44,10 +64,14 @@ body{
     justify-content: left;
     flex-direction: column;
     text-indent: 20px;
-    background-color: #FBFADA;
     margin: 10px;
     width: 25%;
 }
-ol li{
-    list-style: decimal;
+footer div p{
+    position: fixed;
+    background-color: #15F5BA;
+    bottom: 5px;
+    width:100%;
+    text-align: justify;  
 }
+
