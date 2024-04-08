@@ -45,10 +45,15 @@ body{
     vertical-align: middle;
 }
 .sobre_site{
+    font-size: medium ;
     text-align: justify;
     text-indent: 10px;
     border-radius: 5px;
-    margin: 10px;
+    padding:10px;
+}
+.sobre_site ul li{
+    margin: 15px;
+    list-style:disc;
 }
 .sobre_site h1{
     margin: none;
@@ -63,6 +68,11 @@ body{
     align-items: center;
 
 }
+.contato{
+    display: flex;
+    flex-direction: column;
+}
+
 footer div p{
     position: fixed;
     background-color: #f1f515;
