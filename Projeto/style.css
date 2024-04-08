@@ -1,5 +1,6 @@
 body{
-    background-color:#A0153E;
+    padding: 0px;
+    margin: 0px;
 }
 * {
     padding:0;
@@ -13,7 +14,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    color:#690ffa;
+    color:#000000;
     width: auto;
     background-color: #fdefda;
     border-radius: 10px;
@@ -25,8 +26,8 @@ body{
     display: flex;
     flex-direction: row;
     justify-content:space-around;
-    background-color: #cf4a4a84;
-    color: #FBFADA;
+    background-color: #fdefda;
+    color: #000000;
     padding: 10px;
     margin: 10px;
     border-radius: 10px;
@@ -35,41 +36,36 @@ body{
 }
 .nav_bar a:link{
     text-decoration: none;
-    background-color: #dd6a78;
-    border-radius:2px;
     padding: 10px;
 }
-.nav_bar p {
-    font-size: medium;
-}
-.opcoes{
+
+.nav_bar_paginas{
     font-size: x-large;
-    color: #F8F6E3;
+    color: #000000;
+    vertical-align: middle;
 }
-.sobre_site_estilo{
+.sobre_site{
     text-align: justify;
-    text-indent: 20px;
+    text-indent: 10px;
     border-radius: 5px;
-    padding: auto;
-    margin: px;
+    margin: 10px;
 }
-.sobre_site_estilo h1{
+.sobre_site h1{
     margin: none;
     padding: 0;
-    color:#15F5BA;
+    text-indent: 10px;
+    color:#020807;
 }
-.nav_bar_homepage{
+.video{
+    width: 100%;
     display: flex;
-    text-align: justify;
-    justify-content: left;
-    flex-direction: column;
-    text-indent: 20px;
-    margin: 10px;
-    width: 25%;
+    justify-content: center;
+    align-items: center;
+
 }
 footer div p{
     position: fixed;
-    background-color: #15F5BA;
+    background-color: #f1f515;
     bottom: 5px;
     width:100%;
     text-align: justify;  
