@@ -4,6 +4,7 @@ body{
     padding: 15px;
     max-width: 1200px;
     margin: 0 auto;
+
 }
 header{
     display: flex;
@@ -13,12 +14,7 @@ header{
     background-color: white;
     color: #000000;
 }
-#title{
-    flex-direction: column;
-    line-height: 10px;
-    margin: 10px;
-    
-}
+
 header li{
     display:inline-block;
     margin: 15px;
@@ -28,61 +24,32 @@ h1{
     font-weight: 200;
     font-size: 56px;
 }
-main{
-    display: flex;
-    flex-direction: row;
-    margin-top: 50px;
-    align-items: center;
-}
 body ul a{
     text-decoration: none;
     color: aliceblue;
 }
-
-.nav_bar a:link{
-    text-decoration: none;
-    padding: 10px;
+main{
+    font-size: 20px;
 }
-
-.nav_bar_paginas{
-    font-size: x-large;
-    color: #000000;
-    vertical-align: middle;
-}
-.sobre_site{
-    font-size: medium ;
-    text-align: justify;
-    text-indent: 10px;
-    border-radius: 5px;
-    padding:10px;
-}
-.sobre_site ul li{
-    margin: 15px;
-    list-style:disc;
-}
-.sobre_site h1{
-    margin: none;
-    padding: 0;
-    text-indent: 10px;
-    color: aliceblue;
-}
-.video{
+table{
+    border-collapse: collapse;
     width: 100%;
+}
+th, td{
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+}
+th {
+    background-color: #ddd;
+}
+p a{
+    text-decoration: none;
+    color: rgba(54, 54, 251, 0.614);
+}
+.grafico-img{
     display: flex;
     justify-content: center;
     align-items: center;
-
-}
-.contato{
-    display: flex;
     flex-direction: column;
 }
-
-footer div p{
-    position: fixed;
-    background-color: #15c1f5;
-    bottom: 5px;
-    width:100%;
-    text-align: justify;  
-}
-
