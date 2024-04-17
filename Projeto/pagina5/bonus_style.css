@@ -13,16 +13,13 @@ header{
     background-color: white;
     color: #000000;
 }
-#title{
-    flex-direction: column;
-    line-height: 10px;
-    margin: 10px;
-    
-}
 header li{
     display:inline-block;
     margin: 15px;
     color: #000000;
+}
+header a {
+    text-decoration: none;
 }
 h1{
     font-weight: 200;
@@ -31,55 +28,23 @@ h1{
 main{
     font-size: 20px;
 }
-body ul a{
-    text-decoration: none;
-    color: aliceblue;
-}
 
-.nav_bar a:link{
-    text-decoration: none;
-    padding: 10px;
-}
-
-.nav_bar_paginas{
-    font-size: x-large;
-    color: #000000;
-    vertical-align: middle;
-}
-.sobre_site{
-    font-size: medium ;
-    text-align: justify;
-    text-indent: 10px;
-    border-radius: 5px;
-    padding:10px;
-}
-.sobre_site ul li{
-    margin: 15px;
-    list-style:disc;
-}
-.sobre_site h1{
-    margin: none;
-    padding: 0;
-    text-indent: 10px;
-    color: aliceblue;
-}
-.video{
-    width: 100%;
-    display: flex;
-    justify-content: center;
+#imagens-de-codigo{
+    display: inline-flex;
     align-items: center;
-
+    justify-content: center;
 }
-.contato{
+.centralizar-imagens{
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-footer div p{
-    position: fixed;
-    background-color: #15c1f5;
-    bottom: 5px;
-    width:100%;
-    text-align: justify;  
+#emoji-no-titulo{
+    display: inline-flex;
+    align-items: center;
 }
-
+.logos-no-titulo{
+    display: inline-flex;
+    align-items: center;
+}
