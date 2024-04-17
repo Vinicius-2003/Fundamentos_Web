@@ -9,25 +9,57 @@
 </head>
 
 <body>
-    <fieldset>
-        <form>
-            <p>Nome : <input type="text" name="iNome" /></p>
-            <p>Telefone : <input type="tel" name="iTelefone" /></p>
-
-            <p>O quanto você gostou do nosso site :
-                <input type="radio" name="opcao" id="iOpc0"><label for="iOpc0">0</label>
-                <input type="radio" name="opcao" id="iOpc1"> <label for="iOpc1">1</label>
-                <input type="radio" name="opcao" id="iOpc2"> <label for="iOpc2">2</label>
-                <input type="radio" name="opcao" id="iOpc3"> <label for="iOpc3">3</label>
-                <input type="radio" name="opcao" id="iOpc4"> <label for="iOpc4">4</label>
-                <input type="radio" name="opcao" id="iOpc5"> <label for="iOpc5">5</label>
-            </p>
-            <p>(Sendo 0 (não gostei) e 5 (amei)!) </p>
-            <input type="submit" value="Enviar">
-            <input type="reset" value="Limpar">
-            <a href="../index.html">Home</a>
-        </form>
-    </fieldset>
+    <div class="formulario">
+        <header>
+            <div id="title">
+            </div>
+            <article>
+                <img width="200px " src="../image.png" alt="Logo">
+            </article>
+            <ul>
+                <a href="../index.html">
+                    <li>Home</li>
+                </a>
+                <a href="../pagina1/porOndeComecar.html">
+                    <li>Por onde Começar?</li>
+                </a>
+                <a href="../pagina2/principaisLinguagens.html">
+                    <li>Principais Linguagens</li>
+                </a>
+                <a href="../pagina3/estruturaDeUmComputador.html">
+                    <li>Estrutura de um Computador</li>
+                </a>
+                <a href="../pagina4/areasDeAtuacao.html">
+                    <li>Áreas de atuação</li>
+                </a>
+                <a href="../pagina5/bonus.html">
+                    <li>Bônus</li>
+                </a>
+            </ul>
+        </header>
+        <h1>Formulário</h1>
+        <fieldset class="fieldset">
+            <form class="cssForm">
+                <div class="informacoes">
+                    <p>Nome : <input class="nome" type="text" name="iNome" /></p>
+                    <p>Telefone : <input class="telefone" type="tel" name="iTelefone" /></p>
+                </div>
+                <p>O quanto você gostou do nosso site :
+                    <input type="radio" name="opcao" id="iOpc0"><label for="iOpc0">0</label>
+                    <input type="radio" name="opcao" id="iOpc1"> <label for="iOpc1">1</label>
+                    <input type="radio" name="opcao" id="iOpc2"> <label for="iOpc2">2</label>
+                    <input type="radio" name="opcao" id="iOpc3"> <label for="iOpc3">3</label>
+                    <input type="radio" name="opcao" id="iOpc4"> <label for="iOpc4">4</label>
+                    <input type="radio" name="opcao" id="iOpc5"> <label for="iOpc5">5</label>
+                </p>
+                <p>(Sendo 0 (não gostei) e 5 (amei)!) </p>
+                <div class="botoes">
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Limpar">
+                </div>
+            </form>
+        </fieldset>
+    </div>
 </body>
 
 </html>

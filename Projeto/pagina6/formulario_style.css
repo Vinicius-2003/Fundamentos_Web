@@ -1,0 +1,63 @@
+body{
+    background-color: rgb(236, 143, 143);
+    color: aliceblue;
+    padding: 15px;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    color: #000000;
+}
+
+header li{
+    display:inline-block;
+    margin: 15px;
+    color: #000000;
+    
+}
+
+header a{
+    text-decoration: none;
+}
+
+.fieldset{
+    margin-top: 30px;
+    width: 45%;
+    margin-left: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    border-color:whitesmoke;
+}
+h1 {
+    font-weight: 200;
+    font-size: 56px;
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    
+}
+
+.informacoes{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nome, .telefone {
+    width: 150px;
+}
+
+.botoes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
