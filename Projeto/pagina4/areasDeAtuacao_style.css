@@ -5,7 +5,7 @@ body{
     max-width: 1200px;
     margin: 0 auto;
 }
-header{
+.menu{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -13,19 +13,16 @@ header{
     background-color: white;
     color: #000000;
 }
-a {
+.menu a {
     text-decoration: none;
 }
 
-header li{
+.menu li{
     display:inline-block;
     margin: 15px;
     color: #000000;
 }
-h1{
-    font-weight: 200;
-    font-size: 56px;
-}
+
 main{
     margin-top: 50px;
 }
@@ -33,7 +30,41 @@ body{
     font-size: 20px;
     text-align: justify;
 }
-body div{
-    display: inline-flex;
+
+.titulo{
+    color: black;
+    background-color: #fff;
+    border: 2px solid black;
+    display: flex;
     align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    font-weight: 200;
+    font-size: 40px;
+}
+.titulo-h3{
+    background-color: beige;
+    color: cadetblue;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.papel-de-imagem{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 250px;
+    border: 2px black solid;
+}
+.container-papel-de-imagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.dinheiro{
+    color: green;
 }

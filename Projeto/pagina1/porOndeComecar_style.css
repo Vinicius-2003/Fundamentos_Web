@@ -1,11 +1,11 @@
 body{
     background-color: rgb(236, 143, 143);
-    /* color: aliceblue; */
+    color: aliceblue;
     padding: 15px;
     max-width: 1200px;
     margin: 0 auto;
 }
-header{
+.menu{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -13,12 +13,23 @@ header{
     background-color: white;
     color: #000000;
 }
-header li{
+.menu li{
     display:inline-block;
     margin: 15px;
     color: #000000;
 }
-.titulo-h1{
+.menu a{
+    text-decoration:none;
+}
+
+main{
+    font-size: 20px;
+    text-indent: 15px;
+    text-align: justify;
+
+}
+
+.titulo{
     color: black;
     background-color: #fff;
     border: 2px solid black;
@@ -27,12 +38,6 @@ header li{
     justify-content: center;
     margin-top: 50px;
 }
-main{
-    font-size: 20px;
-    text-indent: 15px;
-    text-align: justify;
-
-}
 
 .evolucao-comp-img{
     display: flex;
@@ -40,6 +45,7 @@ main{
     align-items: center;
     flex-direction: column;
 }
+
 .papel-de-imagem{
     background-color: white;
     display: flex;
@@ -50,8 +56,10 @@ main{
     height: 400px;
     border: 2px black solid;
 }
+
 .legenda-imagem{
     padding: 10px;
     margin-top: 15px;
+    color: #000000;
 }
 

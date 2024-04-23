@@ -4,9 +4,11 @@ body{
     padding: 15px;
     max-width: 1200px;
     margin: 0 auto;
+    
+
 
 }
-header{
+.menu{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -15,21 +17,27 @@ header{
     color: #000000;
 }
 
-header li{
+.menu li{
     display:inline-block;
     margin: 15px;
     color: #000000;
 }
-h1{
-    font-weight: 200;
-    font-size: 56px;
-}
-body ul a{
+.menu a {
     text-decoration: none;
-    color: aliceblue;
 }
+.titulo{
+    color: black;
+    background-color: #fff;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
 main{
     font-size: 20px;
+    text-align: justify;
 }
 table{
     border-collapse: collapse;
@@ -52,4 +60,12 @@ p a{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+.titulo-h3{
+    background-color: beige;
+    color: cadetblue;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
