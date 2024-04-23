@@ -6,7 +6,7 @@ body{
     margin: 0 auto;
     
 }
-header{
+.menu{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -14,45 +14,41 @@ header{
     background-color: white;
     color: #000000;
 }
-#title{
-    flex-direction: column;
-    line-height: 10px;
-    margin: 10px;
-    
-}
-header li{
+.menu ul li {
     display:inline-block;
     margin: 15px;
     color: #000000;
 }
-h1{
-    font-weight: 200;
-    font-size: 56px;
+.menu a{
+    text-decoration: none;
 }
-main{
+
+.titulo-h1{
+    color: black;
+    background-color: #fff;
+    border: 2px solid black;
     display: flex;
-    flex-direction: row;
+    align-items: center;
+    justify-content: center;
     margin-top: 50px;
+}
+.corpo-texto {
+    font-size: 23px;
+    text-align: justify;
+}
+#video{
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
-body ul a{
-    text-decoration: none;
-    color: aliceblue;
-}
-main aside p, div p {
-    text-align: justify;
-    text-indent: 5px;
-    font-size: 20px;
-}
 
-main article {
-    margin: 15px;
+#botão-contato a{
+    text-decoration: underline;
+    background-color: aliceblue;
+    color: #000000;
     padding: 5px;
+    margin: 5px;
 }
-footer div p{
-    position: fixed;
-    bottom: 0px;
-    margin: 0;
-    padding: 0px;
+#botão{
+    display: inline-flex;
 }
-

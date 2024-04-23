@@ -1,6 +1,6 @@
 body{
     background-color: rgb(236, 143, 143);
-    color: aliceblue;
+    /* color: aliceblue; */
     padding: 15px;
     max-width: 1200px;
     margin: 0 auto;
@@ -18,25 +18,40 @@ header li{
     margin: 15px;
     color: #000000;
 }
-h1{
-    font-weight: 200;
-    font-size: 56px;
+.titulo-h1{
+    color: black;
+    background-color: #fff;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
 }
 main{
     font-size: 20px;
     text-indent: 15px;
+    text-align: justify;
 
 }
-body ul a{
-    text-decoration: none;
-    color: aliceblue;
-}
-body{
-    text-align: justify;
-}
+
 .evolucao-comp-img{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
+.papel-de-imagem{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+    border: 2px black solid;
+}
+.legenda-imagem{
+    padding: 10px;
+    margin-top: 15px;
+}
+
