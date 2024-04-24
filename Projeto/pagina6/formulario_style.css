@@ -4,8 +4,7 @@ body{
     padding: 15px;
     max-width: 1200px;
     margin: 0 auto;
-
-}
+   }
 header{
     display: flex;
     flex-direction: row;
@@ -13,12 +12,14 @@ header{
     align-items: center;
     background-color: white;
     color: #000000;
+    font-size: 30px;
 }
 
 header li{
     display:inline-block;
     margin: 15px;
     color: #000000;
+    font-size: 20px;
     
 }
 
@@ -33,7 +34,7 @@ header a{
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 100px;
+    border-radius: 50px;
     border-color:whitesmoke;
 }
 h1 {

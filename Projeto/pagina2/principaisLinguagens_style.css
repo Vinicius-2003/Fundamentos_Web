@@ -21,6 +21,7 @@ body{
     display:inline-block;
     margin: 15px;
     color: #000000;
+    font-size: 20px;
 }
 .menu a {
     text-decoration: none;
@@ -68,4 +69,20 @@ p a{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.botao-home a{
+    text-decoration: none;
+    background-color: white;
+    color: #000000;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+#botao-end{
+    display: flex;
+    justify-content: end;
+    align-items: end;
 }
