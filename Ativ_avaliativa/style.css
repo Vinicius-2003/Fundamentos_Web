@@ -1,0 +1,82 @@
+ #menu ul, li {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: end;
+    gap: 10px;
+    margin: 10px;
+    text-decoration: none;
+}
+
+#menu a {
+    text-decoration: none;
+    font-size: 1.5rem ;
+    color: black;
+}
+
+#menu {
+    background-color: antiquewhite;
+}
+.imagem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container, .sections {
+    display: inline-block;
+    width: 50%;
+    height: 200px;
+    background-color: #ccc;
+}
+
+.container { 
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+    gap: 25px;
+}
+#container-filho1 {
+    background-color: rgb(171, 164, 155);
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    text-align: justify;
+    padding: 10px;
+}
+#container-filho1 img {
+    width: 300px ;
+    height: 200px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container-filho2 {
+    background-color: rgb(171, 164, 155);
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    text-align: justify;
+    padding: 10px;
+}
+
+#container-filho2 img {
+    width: 300px ;
+    height: 200px;
+    margin: 20px;
+}
+
+@media screen and (min-width : 1000px) {
+    #container-filho1, #container-filho2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: justify;
+    }
+    
+
+}

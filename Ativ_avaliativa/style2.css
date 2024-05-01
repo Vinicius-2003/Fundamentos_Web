@@ -1,0 +1,42 @@
+#menu ul, li {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: end;
+    gap: 10px;
+    margin: 10px;
+    text-decoration: none;
+}
+
+#menu a {
+    text-decoration: none;
+    font-size: 1.5rem ;
+    color: black;
+}
+
+#menu {
+    background-color: antiquewhite;
+}
+#container-video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.video { 
+    width: 50%;
+    height: 500px;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+#botao-home a, img {
+    width: 40px;
+    margin: 2px;
+    
+}
+
+#botao-home {
+    display: flex;
+}
